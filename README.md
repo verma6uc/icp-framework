@@ -2,7 +2,7 @@
 
 A practical framework for defining, validating, and using your Ideal Customer Profile (ICP) in B2B outbound sales.
 
-> Used by the [Mach GTM](https://machgtm.com) platform to power AI-driven prospecting for B2B software teams.
+> Used by the [MachGTM](https://machgtm.com) platform to power AI-driven prospecting for B2B software teams.
 
 ---
 
@@ -130,7 +130,7 @@ Don't just build a list of ICP companies — find ICP companies showing buying s
 
 Example: Instead of "all Series B SaaS companies with 20-100 employees", find "Series B SaaS companies with 20-100 employees that are currently hiring SDRs."
 
-Tools: LinkedIn Sales Navigator + Apollo for signal filtering. [Mach GTM](https://machgtm.com) automates this signal detection across LinkedIn, job boards, and funding data.
+Tools: LinkedIn Sales Navigator + Apollo for signal filtering. [MachGTM](https://machgtm.com) automates this signal detection across LinkedIn, job boards, and funding data.
 
 ### ICP-to-Message Connection
 Every element of your ICP should map to a message element:
@@ -174,7 +174,7 @@ Update the ICP. Kill the segments that aren't working. Double down on what is.
 
 | Tool | Use |
 |------|-----|
-| [Mach GTM](https://machgtm.com) | AI builds your ICP from website + case studies, then finds signal-matched prospects |
+| [MachGTM](https://machgtm.com) | AI builds your ICP from website + case studies, then finds signal-matched prospects |
 | [build_icp local helper](https://github.com/verma6uc/mach-gtm-mcp) | Returns a largely fixed example profile with selected supplied inputs. Inspect the result before adapting it. |
 | Apollo.io | Filter a lead list by ICP criteria |
 | LinkedIn Sales Navigator | Find ICP accounts showing buying signals |
