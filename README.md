@@ -146,9 +146,15 @@ Score each lead against your ICP (0-100):
 - Buying signals: 0-30 points
 - Decision-maker access: 0-10 points
 
-The [Mach GTM MCP server](https://github.com/verma6uc/mach-gtm-mcp) `score_lead` tool automates this scoring.
+This proposed weighting is a starting point for your own evaluation. The separate [Mach local helper](https://machgtm.com/blog/mcp-server-sales-prospecting) uses its own published formula and thresholds. Inspect that formula before interpreting a score.
 
 ---
+
+## Check fit, intent and buying responsibility
+
+Use the [fit and intent guide](https://machgtm.com/learn/fit-and-intent) to separate company fit from a current request. Build a [buying committee map](https://machgtm.com/resources/buying-committee-map.md) with evidence of each person's responsibility.
+
+The [one-run buying-signal study](https://machgtm.com/blog/buying-signals-one-real-run) shows system grades and the limits of the available human review.
 
 ## ICP Evolution
 
@@ -169,7 +175,7 @@ Update the ICP. Kill the segments that aren't working. Double down on what is.
 | Tool | Use |
 |------|-----|
 | [Mach GTM](https://machgtm.com) | AI builds your ICP from website + case studies, then finds signal-matched prospects |
-| [build_icp MCP tool](https://github.com/verma6uc/mach-gtm-mcp) | Build a structured ICP directly in Claude/ChatGPT |
+| [build_icp local helper](https://github.com/verma6uc/mach-gtm-mcp) | Returns a largely fixed example profile with selected supplied inputs. Inspect the result before adapting it. |
 | Apollo.io | Filter a lead list by ICP criteria |
 | LinkedIn Sales Navigator | Find ICP accounts showing buying signals |
 | Clay | Enrich accounts against ICP criteria |
@@ -178,7 +184,7 @@ Update the ICP. Kill the segments that aren't working. Double down on what is.
 
 ## Example ICPs
 
-### Example 1: AI Outbound Platform (Mach GTM)
+### Example 1. Illustrative AI outbound platform profile
 - Industry: SaaS, IT Services, AI companies
 - Size: 10-200 employees
 - Geography: US-focused (selling to US buyers)
@@ -210,4 +216,4 @@ Open a PR to add example ICPs, improve the framework, or correct anything.
 
 ---
 
-*Framework maintained by the community. Used in production at [Mach GTM](https://machgtm.com).*
+*Maintained alongside [MachGTM](https://machgtm.com). The example profiles and weighting are proposed starting points.*
